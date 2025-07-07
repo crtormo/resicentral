@@ -1,0 +1,98 @@
+# Archivos de entorno
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de construcción
+build/
+dist/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Archivos de configuración IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de backup
+*.backup
+*.bak
+*.tmp
+
+# Archivos de cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Archivos de Docker
+.dockerignore
+docker-compose.override.yml
+
+# Archivos de certificados y llaves
+*.key
+*.pem
+*.crt
+*.jks
+*.p12
+*.keystore
+
+# Archivos de configuración sensibles
+key.properties
+google-services.json
+firebase-adminsdk-*.json
+
+# Archivos de uploads
+uploads/
+temp/
+static/media/
+
+# Archivos de monitoreo
+prometheus/
+grafana/data/
+
+# Archivos de backup
+backups/
+*.sql
+*.tar.gz
+*.zip
+
+# Archivos específicos de producción
+/data/
+/postgres_data/
+/redis_data/
+/minio_data/
+
+# Archivos de configuración local
+docker-compose.local.yml
+nginx.local.conf
