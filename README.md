@@ -6,7 +6,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-green.svg)](https://fastapi.tiangolo.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue.svg)](https://postgresql.org)
 
-ResiCentral es una solución completa para la gestión de residencias, condominios y complejos habitacionales. Permite administrar residentes, visitantes, pagos, mantenimiento y comunicación de manera eficiente y segura.
+ResiCentral es una plataforma híbrida de gestión que combina administración de personal, turnos complejos y un CMS clínico estructurado. Originalmente para residencias, su arquitectura (FastAPI + SQLModel) es la base ideal para sistemas hospitalarios (StaffCore).
 
 ## 🚀 Características Principales
 
@@ -19,6 +19,13 @@ ResiCentral es una solución completa para la gestión de residencias, condomini
 - **📊 Reportes**: Estadísticas y reportes detallados
 - **🔐 Seguridad**: Autenticación JWT y roles de usuario
 - **📧 Comunicación**: Sistema de notificaciones y mensajería
+
+## 🏥 Capacidades Clínicas (Hidden Gems)
+Aunque diseñado para residencias, el núcleo contiene modelos avanzados para salud:
+- **💊 Vademécum**: Gestión de fármacos (Drug) con dosis, contraindicaciones y efectos.
+- **⚡ Algoritmos Clínicos**: Motor de árboles de decisión (AlgorithmNode/Edge) para protocolos médicos.
+- **🩺 Procedimientos**: Guías paso a paso estructuradas con multimedia.
+- **📅 Turnos Médicos**: Sistema de Shifts complejo con gestión de guardias y relevos.
 
 ## 🛠️ Tecnologías Utilizadas
 
